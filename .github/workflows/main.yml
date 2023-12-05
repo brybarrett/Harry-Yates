@@ -22,6 +22,7 @@ jobs:
         run: npm install
 
       - name: Fetch Weather Data
+        working-directory: ./ # Set the working directory to the root of the repository
         env:
           OPEN_WEATHER: ${{ secrets.OPEN_WEATHER }} # Use the secret as an environment variable
         run: |
@@ -40,7 +41,7 @@ jobs:
           echo "Checking for changes in README.md..."
           git add README.md || (echo "Failed to add README.md" && exit 1)
           git status
-          git diff-index --quiet HEAD || (echo "Changes detected, committing..." && git commit -m "Update Weather" || (echo "Failed to commit changes" && exit 1))
+          git diff-index --quiet HEAD || (echo "Changes detected, committing..." && git commit -m "Update Weather" || (echo "Failed to commit changes" and exit 1))
           echo "Pushing changes to main branch..."
           git push origin main || (echo "Push failed" && exit 1)
           echo "Push successful"
