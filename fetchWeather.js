@@ -44,7 +44,8 @@ const fetchWeather = async () => {
 
 const updateReadme = async (weatherData) => {
   try {
-    const readmePath = path.join(__dirname, "README.md");
+    const readmePath = path.join("./README.md");
+    console.log(__dirname);
     console.log(`Reading README.md from ${readmePath}`);
     let readmeContent = fs.readFileSync(readmePath, "utf8");
 
