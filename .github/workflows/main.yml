@@ -40,4 +40,6 @@ jobs:
           echo "Checking for changes in README.md..."
           git add README.md
           git status
-          git diff-index --quiet HEAD || (echo "Changes detected, committing..." && git commit -m "Update Weather" && git push origin main || echo "No changes to commit")
+          git diff-index --quiet HEAD || (echo "Changes detected, committing..." && git commit -m "Update Weather" && echo "Commit successful" || echo "No changes to commit")
+          echo "Pushing changes to main branch..."
+          git push origin main && echo "Push successful" || echo "Push failed"
