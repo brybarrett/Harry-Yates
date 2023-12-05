@@ -54,10 +54,6 @@ jobs:
           git fetch origin main || (echo "Failed to fetch from main" && exit 1)
           echo "Latest fetched."
 
-          echo "Resetting to the latest commit..."
-          git reset --hard FETCH_HEAD || (echo "Failed to reset to FETCH_HEAD" && exit 1)
-          echo "Reset to latest commit."
-
           echo "Checking for changes in README.md..."
           git add README.md || (echo "Failed to add README.md" && exit 1)
           echo "README.md added."
