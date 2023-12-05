@@ -33,5 +33,11 @@ jobs:
           git config --global user.name "Harry-Yates"
           git fetch origin main
           git reset --hard FETCH_HEAD
-          git diff --quiet || git commit -am "Update Weather"
-          git push origin main
+          git add README.md
+          git status | grep -q README.md
+          if [ $? -eq 0 ]; then
+            git commit -m "Update Weather"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
