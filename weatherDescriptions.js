@@ -1,5 +1,5 @@
 const weatherDescriptions = {
-  //Main
+  //MAIN - ENDPOINT
   //   clouds: "it's a cloudy day, with the sun peeking through occasionally.",
   //   "shower rain": "expect some shower rain today.",
   //   rain: "it's a rainy day, don't forget your umbrella.",
@@ -16,7 +16,8 @@ const weatherDescriptions = {
   //   haze: "a light haze is blurring the horizon.",
   //   smoke: "smoke is in the air, be cautious of reduced visibility.",
   //   drizzle: "a light drizzle is adding a touch of freshness to the day.",
-  //DESCRIPTIONS
+
+  //DESCRIPTIONS - ENDPOINT
   //THUNDERSTORM
   "thunderstorm with light rain":
     "a thunderstorm is present, accompanied by light rain.",
@@ -25,7 +26,7 @@ const weatherDescriptions = {
   "thunderstorm with heavy rain":
     "heavy rain is pouring down from a fierce thunderstorm.",
   "light thunderstorm": "a light thunderstorm is crackling in the distance.",
-  thunderstorm: "a thunderstorm is rumbling overhead, stay safe inside.",
+  thunderstorm: "a thunderstorm is rumbling overhead, stay safe!",
   "heavy thunderstorm":
     "a heavy thunderstorm is booming, it's quite a spectacle!",
   "ragged thunderstorm":
@@ -51,12 +52,13 @@ const weatherDescriptions = {
     "heavy showers mixed with drizzle are drenching the area.",
   "shower drizzle":
     "a shower drizzle is passing through, light and refreshing.",
+
   //RAIN
   "light rain": "a light rain is falling, bringing a calm over the city.",
   "moderate rain":
     "moderate rain is coming down, perfect for a lazy day indoors.",
   "heavy intensity rain":
-    "heavy rain is pouring, creating a rhythmic sound on the rooftops.",
+    "heavy rain is pouring, creating a rhythmic sound on the rooftop.",
   "very heavy rain":
     "very heavy rain is drenching the streets, best to stay inside.",
   "extreme rain": "extreme rain is lashing out, it's quite a downpour!",
@@ -70,20 +72,24 @@ const weatherDescriptions = {
     "ragged shower rain is passing through, with bursts of rain here and there.",
 
   //SNOW
-  "light snow": "a gentle light snow is dusting the city.",
-  snow: "snow is gracefully falling, blanketing the ground.",
-  "heavy snow": "heavy snow is coming down, creating a winter wonderland.",
-  sleet: "sleet is falling, a mix of rain and snow.",
-  "light shower sleet": "light sleet showers are passing through.",
-  "shower sleet": "shower sleet is falling, a chilly mix of rain and snow.",
+  "light snow": "a light snow is dusting the city.",
+  snow: "it's a picturesque scene with snow falling and blanketing the ground.",
+  "heavy snow":
+    "a heavy snowfall is transforming the landscape into a winter wonderland!",
+  sleet: "sleet is falling, a brisk mix of rain and snow.",
+  "light shower sleet":
+    "there are light sleet showers passing through, a brief mix of rain and snow.",
+  "shower sleet":
+    "shower sleet is coming down, creating a chilly mix of rain and snow.",
   "light rain and snow":
-    "light rain mixed with snow is making the streets glisten.",
-  "rain and snow": "rain and snow are combining for a slushy mix.",
-  "light shower snow": "light snow showers are adding a fresh layer of powder.",
+    "light rain is mixing with snow, making the streets glisten.",
+  "rain and snow":
+    "rain and snow are combining, creating a grim slushy mix underfoot.",
+  "light shower snow": "light snow showers are adding a fresh, powdery layer.",
   "shower snow":
-    "snow showers are passing through, briefly covering the streets.",
+    "snow showers are briefly covering the streets, adding a touch of winter charm.",
   "heavy shower snow":
-    "heavy snow showers are quickly piling up on the ground.",
+    "heavy snow showers are quickly piling up, creating a thick blanket on the ground.",
 
   //ATMOSPHERE
   mist: "a gentle mist is enveloping the surroundings, creating a serene atmosphere.",
@@ -102,24 +108,20 @@ const weatherDescriptions = {
 
   //CLEAR
   "clear sky":
-    "the sky is crystal clear, offering a perfect view of the stars at night and a bright blue canvas during the day.",
+    "the sky is beautifully clear, ideal for a spot of stargazing at night or basking in the bright blue during the day.",
 
   //CLOUDS
-  "few clouds":
-    "the sky is mostly clear with just a few clouds here and there.",
-  "scattered clouds":
-    "scattered clouds are strewn across the sky, making for a picturesque day.",
-  "broken clouds":
-    "the sky is covered with broken clouds, creating a dramatic and ever-changing landscape.",
-  "overcast clouds":
-    "the sky is completely overcast, blanketing the area in a uniform cloud cover.",
+  "few clouds": "there are just a few clouds in the sky.",
+  "scattered clouds": "the sky is dotted with scattered clouds.",
+  "broken clouds": "you can see interesting patterns of broken clouds.",
+  "overcast clouds": "it's a grey day with overcast clouds covering the sky.",
 };
 
 const getWeatherMessage = (temperature, description, cityName) => {
   const message =
     weatherDescriptions[description.toLowerCase()] ||
     "it's an unusual weather day.";
-  return `Based in ${cityName} where the temperature is ${temperature}°C, ${message}`;
+  return `Based in ${cityName}, where the temperature is ${temperature}°C, right now ${message}`;
 };
 
 module.exports = getWeatherMessage;
