@@ -4,7 +4,6 @@
 </a>
 
 <!-- WEATHER_START -->
-Current weather in Stockholm: 263.58°C, overcast clouds
 <!-- WEATHER_END -->
 # <a>
 # <img align="center"  src="https://github-readme-stats-397qiko9w-harry-yates.vercel.app/api?username=Harry-Yates&show_icons=true&count_private=true&theme=transparent&title_color=601eff&text_color=601eff&icon_color=601eff&hide_border=true&border_color=faf3f1" width="500" height="auto"/>
