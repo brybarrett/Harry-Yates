@@ -1,0 +1,10 @@
+
+# Environment Variables File:
+.env
+
+# Node Modules:
+node_modules/
+
+# Logs:
+npm-debug.log
+yarn-error.log
