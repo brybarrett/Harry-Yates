@@ -1,7 +1,5 @@
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
-// Rest of your script...
-
 const fs = require("fs");
 const path = require("path");
 require("dotenv").config();
@@ -13,13 +11,20 @@ const fetchWeather = async () => {
   const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
   try {
+    console.log("Fetching weather data...");
     const response = await fetch(url);
+    console.log(`Response status: ${response.status}`);
+    if (!response.ok) {
+      console.error(
+        `API call failed with status: ${response.status} ${response.statusText}`
+      );
+      return "API call failed";
+    }
     const data = await response.json();
+    console.log("Data received:", data);
 
-    // Extract the desired information
-    const temperature = data.current.temp; // Assuming you want the current temperature
+    const temperature = data.current.temp; // Current temperature in Celsius
     const weatherCondition = data.current.weather[0].description; // Current weather condition
-
     return `Current weather in Stockholm: ${temperature}°C, ${weatherCondition}`;
   } catch (error) {
     console.error("Error fetching weather data:", error);
