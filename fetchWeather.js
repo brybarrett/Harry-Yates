@@ -49,6 +49,7 @@ const updateReadme = async (weatherData) => {
     console.log(`Reading README.md from ${readmePath}`);
     let readmeContent = fs.readFileSync(readmePath, "utf8");
 
+    console.log(readmeContent);
     const startMarker = "<!-- WEATHER_START -->";
     const endMarker = "<!-- WEATHER_END -->";
     const startIndex = readmeContent.indexOf(startMarker) + startMarker.length;
@@ -61,7 +62,7 @@ const updateReadme = async (weatherData) => {
     const beforeWeather = readmeContent.substring(0, startIndex);
     const afterWeather = readmeContent.substring(endIndex);
     readmeContent = beforeWeather + "\n" + weatherData + "\n" + afterWeather;
-
+    console.log(readmeContent);
     console.log("Writing updated weather data to README.md");
     fs.writeFileSync(readmePath, readmeContent, "utf8");
     console.log("Successfully updated README.md");
