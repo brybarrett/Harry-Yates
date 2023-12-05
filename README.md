@@ -4,5 +4,6 @@
 </a>
 
 <!-- WEATHER_START -->
+Current weather in Stockholm: -9.12°C, overcast clouds
 <!-- WEATHER_END -->
 ---
