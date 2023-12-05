@@ -3,7 +3,6 @@ name: Update Weather
 on:
   schedule:
     - cron: "0 * * * *" # Runs every hour
-  workflow_dispatch: # Add this line for manual trigger
 
 jobs:
   update-weather:
@@ -14,10 +13,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "16" # Specify the Node.js version
-
-      - name: Install Dependencies
-        run: npm install
+          node-version: "14" # Specify the Node.js version
 
       - name: Fetch Weather Data
         run: |
@@ -27,7 +23,5 @@ jobs:
         run: |
           git config --global user.email "hyates1@gmail.com"
           git config --global user.name "Harry-Yates"
-          git fetch origin main
-          git reset --hard FETCH_HEAD
           git diff --quiet || git commit -am "Update Weather"
-          git push origin main
+          git push
