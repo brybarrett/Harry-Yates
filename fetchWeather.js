@@ -33,23 +33,31 @@ const fetchWeather = async () => {
 };
 
 const updateReadme = async (weatherData) => {
-  const readmePath = path.join(__dirname, "README.md");
-  let readmeContent = fs.readFileSync(readmePath, "utf8");
+  try {
+    const readmePath = path.join(__dirname, "README.md");
+    console.log(`Reading README.md from ${readmePath}`);
+    let readmeContent = fs.readFileSync(readmePath, "utf8");
 
-  const startMarker = "<!-- WEATHER_START -->";
-  const endMarker = "<!-- WEATHER_END -->";
-  const startIndex = readmeContent.indexOf(startMarker) + startMarker.length;
-  const endIndex = readmeContent.indexOf(endMarker);
+    const startMarker = "<!-- WEATHER_START -->";
+    const endMarker = "<!-- WEATHER_END -->";
+    const startIndex = readmeContent.indexOf(startMarker) + startMarker.length;
+    const endIndex = readmeContent.indexOf(endMarker);
 
-  if (startIndex < 0 || endIndex < 0 || startIndex >= endIndex) {
-    throw new Error("Could not find placeholders in README.md");
+    if (startIndex < 0 || endIndex < 0 || startIndex >= endIndex) {
+      throw new Error("Could not find placeholders in README.md");
+    }
+
+    const beforeWeather = readmeContent.substring(0, startIndex);
+    const afterWeather = readmeContent.substring(endIndex);
+    readmeContent = beforeWeather + "\n" + weatherData + "\n" + afterWeather;
+
+    console.log("Writing updated weather data to README.md");
+    fs.writeFileSync(readmePath, readmeContent, "utf8");
+    console.log("Successfully updated README.md");
+  } catch (error) {
+    console.error("An error occurred in updateReadme:", error);
+    throw error; // Rethrow the error to be caught in the calling function
   }
-
-  const beforeWeather = readmeContent.substring(0, startIndex);
-  const afterWeather = readmeContent.substring(endIndex);
-  readmeContent = beforeWeather + "\n" + weatherData + "\n" + afterWeather;
-
-  fs.writeFileSync(readmePath, readmeContent, "utf8");
 };
 
 fetchWeather()
