@@ -8,4 +8,4 @@ Based in Belgium where the temperature is -9.23°C, a gentle mist is enveloping 
 
 <!-- WEATHER_END -->
 
-Portfolio: [hyates.com](https://www.hyates.com)
+Portfolio: <a href="https://www.hyates.com" target="_blank">hyates.com</a>
