@@ -34,12 +34,13 @@ jobs:
           git config --global user.email "hyates1@gmail.com"
           git config --global user.name "Harry-Yates"
           echo "Fetching latest from main branch..."
-          git fetch origin main
+          git fetch origin main || (echo "Failed to fetch from main" && exit 1)
           echo "Resetting to the latest commit..."
-          git reset --hard FETCH_HEAD
+          git reset --hard FETCH_HEAD || (echo "Failed to reset to FETCH_HEAD" && exit 1)
           echo "Checking for changes in README.md..."
-          git add README.md
+          git add README.md || (echo "Failed to add README.md" && exit 1)
           git status
-          git diff-index --quiet HEAD || (echo "Changes detected, committing..." && git commit -m "Update Weather" && echo "Commit successful" || echo "No changes to commit")
+          git diff-index --quiet HEAD || (echo "Changes detected, committing..." && git commit -m "Update Weather" || (echo "Failed to commit changes" && exit 1))
           echo "Pushing changes to main branch..."
-          git push origin main && echo "Push successful" || echo "Push failed"
+          git push origin main || (echo "Push failed" && exit 1)
+          echo "Push successful"
