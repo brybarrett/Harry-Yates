@@ -3,7 +3,7 @@ name: Update Weather
 on:
   schedule:
     - cron: "0 * * * *" # Runs every hour
-  workflow_dispatch: # Add this line for manual trigger
+  workflow_dispatch: # Manual trigger
 
 jobs:
   update-weather:
@@ -20,8 +20,9 @@ jobs:
         run: npm install
 
       - name: Fetch Weather Data
-        run: |
-          node fetchWeather.js # Run the JavaScript script
+        env:
+          OPEN_WEATHER: ${{ secrets.OPEN_WEATHER }} # Use the secret as an environment variable
+        run: node fetchWeather.js
 
       - name: Commit and push if changed
         run: |
