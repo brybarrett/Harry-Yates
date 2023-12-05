@@ -2,29 +2,30 @@ name: Update Weather
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: "0 * * * *" # Runs every hour
+  workflow_dispatch: # Add this line for manual trigger
 
 jobs:
   update-weather:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14' # Specify the Node.js version
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14" # Specify the Node.js version
 
-    - name: Install Dependencies
-      run: npm install
+      - name: Install Dependencies
+        run: npm install
 
-    - name: Fetch Weather Data
-      run: |
-        node fetchWeather.js # Run the JavaScript script
+      - name: Fetch Weather Data
+        run: |
+          node fetchWeather.js # Run the JavaScript script
 
-    - name: Commit and push if changed
-      run: |
-        git config --global user.email "hyates1@gmail.com"
-        git config --global user.name "Harry-Yates"
-        git diff --quiet || git commit -am "Update Weather"
-        git push
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "hyates1@gmail.com"
+          git config --global user.name "Harry-Yates"
+          git diff --quiet || git commit -am "Update Weather"
+          git push
