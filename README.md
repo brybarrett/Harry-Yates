@@ -4,6 +4,5 @@
 </a>
 
 <!-- WEATHER_START -->
-
 <!-- WEATHER_END -->
 ---
