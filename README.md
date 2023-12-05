@@ -4,6 +4,6 @@
 </a>
 
 <!-- WEATHER_START -->
-Current weather in Stockholm: -9.12°C, overcast clouds
+Based in Milan where the temperature is 4.18°C, scattered clouds are strewn across the sky, making for a picturesque day.
 <!-- WEATHER_END -->
 ---

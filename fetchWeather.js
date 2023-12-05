@@ -3,12 +3,15 @@ const fetch = (...args) =>
 const fs = require("fs");
 const path = require("path");
 require("dotenv").config();
+const getWeatherMessage = require("./weatherDescriptions.js");
+const cities = require("./cities.js");
+
+// SET CITY HERE
+const currentCity = cities.Stockholm;
 
 const fetchWeather = async () => {
-  const apiKey = process.env.OPEN_WEATHER; // Access the API key from environment variables
-  const lat = "59.3293"; // Latitude for Stockholm
-  const lon = "18.0686"; // Longitude for Stockholm
-  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
+  const apiKey = process.env.OPEN_WEATHER;
+  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${currentCity.lat}&lon=${currentCity.lon}&units=metric&appid=${apiKey}`;
 
   try {
     console.log("Fetching weather data...");
@@ -25,7 +28,14 @@ const fetchWeather = async () => {
 
     const temperature = data.current.temp; // Current temperature in Celsius
     const weatherCondition = data.current.weather[0].description; // Current weather condition
-    return `Current weather in Stockholm: ${temperature}°C, ${weatherCondition}`;
+    console.log(`Weather condition received: ${weatherCondition}`); // Log the condition
+    const weatherMessage = getWeatherMessage(
+      temperature,
+      weatherCondition,
+      currentCity.name
+    );
+
+    return weatherMessage;
   } catch (error) {
     console.error("Error fetching weather data:", error);
     return "Unable to fetch weather data.";
