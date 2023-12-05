@@ -4,6 +4,6 @@
 </a>
 
 <!-- WEATHER_START -->
-
+Unable to fetch weather data.
 <!-- WEATHER_END -->
 ---
