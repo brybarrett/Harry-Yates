@@ -12,7 +12,7 @@ Based in Stockholm, where the temperature is -10.18°C, right now it's a grey da
   </a>
 </p>
 
-Check out [haytes.com](http://hyates.com) for recent projects.
+[haytes.com](http://hyates.com) for recent projects.
 
 
 
