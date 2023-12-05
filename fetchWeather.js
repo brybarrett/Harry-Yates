@@ -10,7 +10,7 @@ const fetchWeather = async () => {
   const apiKey = process.env.OPEN_WEATHER; // Access the API key from environment variables
   const lat = "59.3293"; // Latitude for Stockholm
   const lon = "18.0686"; // Longitude for Stockholm
-  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
   try {
     const response = await fetch(url);
