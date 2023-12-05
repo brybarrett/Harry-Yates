@@ -1,9 +1,16 @@
 ---
-<a href="https://www.hyates.com">
-<img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&size=16&duration=800&color=66b2ff&secondary_color=ffae00&multiline=true&repeat=false&random=false&width=435&height=110&lines=Hi%2C+I'm+Harry+👋;Frontend+Developer+💻;Focused+on+learning+JS%2C+TS+%26+React;Creating+user-friendly+web+experiences;Portfolio%3A+hyates.com" alt="Typing SVG" />
-</a>
+# <a href="https://www.hyates.com">
+# <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&size=16&duration=800&color=66b2ff&secondary_color=ffae00&multiline=true&repeat=false&random=false&width=435&height=110&lines=Hi%2C+I'm+Harry;Frontend+Developer;Focused+on+learning+JS%2C+TS+%26+React;Creating+user-friendly+web+experiences;Portfolio%3A+hyates.com" alt="Typing SVG" />
+# </a>
 
+<a href="https://www.hyates.com">
+Hi, I'm Harry
+Frontend Developer
+Focused on learning Js, TS & React
+Creating user-friendly web experiences
 <!-- WEATHER_START -->
-Based in Milan where the temperature is 4.18°C, scattered clouds are strewn across the sky, making for a picturesque day.
+Based in Belgium where the temperature is -9.2°C, a gentle mist is enveloping the surroundings, creating a serene atmosphere.
 <!-- WEATHER_END -->
+Portfolio: hyates.com
+</a>
 ---
