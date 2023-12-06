@@ -113,7 +113,7 @@ const weatherDescriptions = {
   //CLOUDS
   "few clouds": "there are just a few clouds in the sky.",
   "scattered clouds": "the sky is dotted with scattered clouds.",
-  "broken clouds": "you can see interesting patterns of broken clouds.",
+  "broken clouds": "you can see patterns of broken clouds.",
   "overcast clouds": "it's a grey day with overcast clouds covering the sky.",
 };
 
