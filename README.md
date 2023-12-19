@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 5.78°C, right now the sky is beautifully clear, ideal for a spot of stargazing at night or basking in the bright blue during the day.
+Based in Stockholm, where the temperature is 5.95°C, right now the sky is beautifully clear, ideal for a spot of stargazing at night or basking in the bright blue during the day.
 <!-- WEATHER_END -->
 
 <p align="left">
