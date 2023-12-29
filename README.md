@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 0.62°C, right now moderate rain is coming down, perfect for a lazy day indoors.
+Based in Stockholm, where the temperature is 0.42°C, right now it's a picturesque scene with snow falling and blanketing the ground.
 <!-- WEATHER_END -->
 
 <p align="left">
