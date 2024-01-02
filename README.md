@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -5.93°C, right now snow showers are briefly covering the streets, adding a touch of winter charm.
+Based in Stockholm, where the temperature is -6.1°C, right now snow showers are briefly covering the streets, adding a touch of winter charm.
 <!-- WEATHER_END -->
 
 <p align="left">
