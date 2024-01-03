@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -6.8°C, right now light snow showers are adding a fresh, powdery layer.
+Based in Stockholm, where the temperature is -6.62°C, right now light snow showers are adding a fresh, powdery layer.
 <!-- WEATHER_END -->
 
 <p align="left">
