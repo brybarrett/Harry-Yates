@@ -46,8 +46,10 @@ jobs:
       - name: Commit and push if changed
         run: |
           echo "Configuring Git..."
-          git config --global user.email "hyates1@gmail.com"
-          git config --global user.name "Harry-Yates"
+          # git config --global user.email "hyates1@gmail.com"
+          # git config --global user.name "Harry-Yates"
+            git config --global user.name "Weatherman"
+            git config --global user.email "weatherman@weatherman.com"
           echo "Git Configuration Set."
 
           echo "Fetching latest from main branch..."
