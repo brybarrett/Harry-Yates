@@ -7,7 +7,7 @@ const getWeatherMessage = require("./weatherDescriptions.js");
 const cities = require("./cities.js");
 
 // SET CITY HERE
-const currentCity = cities.Stockholm;
+const currentCity = cities.Sweden.Stockholm;
 
 const fetchWeather = async () => {
   const apiKey = process.env.OPEN_WEATHER;

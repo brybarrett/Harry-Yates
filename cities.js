@@ -1,19 +1,26 @@
-const cities = {
-  Stockholm: {
-    lat: "59.3293",
-    lon: "18.0686",
-    name: "Stockholm",
+const citiesByCountry = {
+  Sweden: {
+    Stockholm: {
+      lat: "59.3293",
+      lon: "18.0686",
+      name: "Stockholm",
+    },
   },
-  London: {
-    lat: "51.5074",
-    lon: "-0.1278",
-    name: "London",
+  UnitedKingdom: {
+    London: {
+      lat: "51.5074",
+      lon: "-0.1278",
+      name: "London",
+    },
   },
-  Milan: {
-    lat: "45.4642",
-    lon: "9.1900",
-    name: "Milan",
+  Italy: {
+    Milan: {
+      lat: "45.4642",
+      lon: "9.1900",
+      name: "Milan",
+    },
   },
+  // Add more countries and cities as needed
 };
 
-module.exports = cities;
+module.exports = citiesByCountry;
