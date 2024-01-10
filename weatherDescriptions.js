@@ -107,8 +107,7 @@ const weatherDescriptions = {
     "a tornado is forming, a powerful and awe-inspiring sight. Seek shelter immediately!",
 
   //CLEAR
-  "clear sky":
-    "the sky is beautifully clear, ideal for a spot of stargazing at night or basking in the bright blue during the day.",
+  "clear sky": "the sky is beautifully clear.",
 
   //CLOUDS
   "few clouds": "there are just a few clouds in the sky.",
