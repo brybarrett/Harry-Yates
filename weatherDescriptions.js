@@ -85,19 +85,19 @@ const weatherDescriptions = {
     "light rain is mixing with snow, making the streets glisten.",
   "rain and snow":
     "rain and snow are combining, creating a grim slushy mix underfoot.",
-  "light shower snow": "light snow showers are adding a fresh, powdery layer.",
+  "light shower snow": "light snow is falling.",
   "shower snow":
-    "snow showers are briefly covering the streets, adding a touch of winter charm.",
+    "snow showers are covering the streets, adding a touch of winter charm.",
   "heavy shower snow":
-    "heavy snow showers are quickly piling up, creating a thick blanket on the ground.",
+    "heavy snow is quickly piling up, leaving a thick blanket on the ground.",
 
   //ATMOSPHERE
-  mist: "a gentle mist is enveloping the surroundings, creating a serene atmosphere.",
+  mist: "a light mist is enveloping the surroundings, creating a serene atmosphere.",
   smoke: "smoke is drifting through the air, reducing visibility.",
   haze: "a soft haze is hanging over the city, blurring distant views.",
   "sand/dust whirls":
     "sand and dust are swirling in the air, a dance of nature's elements.",
-  fog: "a thick fog is blanketing the area, shrouding everything in mystery.",
+  fog: "a thick fog is blanketing the area, shrouding everything!",
   sand: "grains of sand are being whisked through the air, a reminder of the desert's presence.",
   dust: "a dusty haze is hanging in the air, covering the landscape.",
   "volcanic ash":
