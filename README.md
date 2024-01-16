@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -11.99°C, right now it's a grey day with overcast clouds covering the sky.
+Based in Stockholm, where the temperature is -11.9°C, right now you can see patterns of broken clouds.
 <!-- WEATHER_END -->
 
 <p align="left">
