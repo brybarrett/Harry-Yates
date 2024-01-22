@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 1.84°C, right now sleet is falling, a brisk mix of rain and snow.
+Based in Stockholm, where the temperature is 1.82°C, right now it's a picturesque scene with snow falling and blanketing the ground.
 <!-- WEATHER_END -->
 
 <p align="left">
