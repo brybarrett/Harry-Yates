@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 3.73°C, right now you can see patterns of broken clouds.
+Based in Stockholm, where the temperature is 3.56°C, right now the sky is dotted with scattered clouds.
 <!-- WEATHER_END -->
 
 <p align="left">
