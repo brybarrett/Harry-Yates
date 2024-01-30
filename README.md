@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -0.17°C, right now a thick fog is blanketing the area, shrouding everything!
+Based in Stockholm, where the temperature is -0.23°C, right now a thick fog is blanketing the area, shrouding everything!
 <!-- WEATHER_END -->
 
 <p align="left">
