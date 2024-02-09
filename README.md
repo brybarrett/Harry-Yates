@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -5.06°C, right now a heavy snowfall is transforming the landscape into a winter wonderland!
+Based in Stockholm, where the temperature is -4.93°C, right now a heavy snowfall is transforming the landscape into a winter wonderland!
 <!-- WEATHER_END -->
 
 <p align="left">
