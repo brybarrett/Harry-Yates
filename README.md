@@ -14,4 +14,6 @@ Based in Stockholm, where the temperature is 1.06°C, right now it's a picturesq
   </a>
 </p>
 
+[harryyates.com](https://harryyates.com) for recent projects.
+
 <a href="https://harryyates.com" target="_blank">harryyates.com</a> for recent projects.
