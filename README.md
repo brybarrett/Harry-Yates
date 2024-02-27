@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 1.59°C, right now a light mist is enveloping the surroundings, creating a serene atmosphere.
+Based in Stockholm, where the temperature is 1.44°C, right now a light mist is enveloping the surroundings, creating a serene atmosphere.
 <!-- WEATHER_END -->
 
 <p align="left">
