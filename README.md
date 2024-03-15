@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Unable to fetch weather data.
+Based in Stockholm, where the temperature is 7.17°C, right now you can see patterns of broken clouds.
 <!-- WEATHER_END -->
 
 <p align="left">
