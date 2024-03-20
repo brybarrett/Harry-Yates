@@ -10,7 +10,7 @@ Based in Stockholm, where the temperature is 2.87°C, right now you can see patt
 
 <p align="left">
   <a>
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=bigbello&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="spotify-github-profile">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=bigbello&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="spotify-github-profile">
   </a>
 </p>
 
