@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Frontend Developer with expertise in JavaScript, TypeScript, and React.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -2.1°C, right now the sky is dotted with scattered clouds.
+Unable to fetch weather data.
 <!-- WEATHER_END -->
 
 <p align="left">
