@@ -18,6 +18,7 @@ const weatherDescriptions = {
   //   drizzle: "a light drizzle is adding a touch of freshness to the day.",
 
   //DESCRIPTIONS - ENDPOINT
+
   //THUNDERSTORM
   "thunderstorm with light rain":
     "a thunderstorm is present, accompanied by light rain.",
@@ -37,6 +38,7 @@ const weatherDescriptions = {
     "a thunderstorm with a gentle drizzle is setting the mood.",
   "thunderstorm with heavy drizzle":
     "a heavy drizzle is adding to the intensity of the thunderstorm.",
+
   //DRIZZLE
   "light intensity drizzle":
     "a light drizzle is gently misting the surroundings.",
