@@ -54,11 +54,10 @@ const weatherDescriptions = {
     "a shower drizzle is passing through, light and refreshing.",
 
   //RAIN
-  "light rain": "a light rain is falling, bringing a calm over the city.",
+  "light rain": "a bit of light rain at the moment",
   "moderate rain":
     "moderate rain is coming down, perfect for a lazy day indoors.",
-  "heavy intensity rain":
-    "heavy rain is pouring, creating a rhythmic sound on the rooftop.",
+  "heavy intensity rain": "we've got some pretty heavy rain",
   "very heavy rain":
     "very heavy rain is drenching the streets, best to stay inside.",
   "extreme rain": "extreme rain is lashing out, it's quite a downpour!",
@@ -107,13 +106,18 @@ const weatherDescriptions = {
     "a tornado is forming, a powerful and awe-inspiring sight. Seek shelter immediately!",
 
   //CLEAR
-  "clear sky": "the sky is beautifully clear.",
+  "clear sky":
+    "the sky is suspiciously clear, as if it's plotting something for later.",
 
   //CLOUDS
-  "few clouds": "there are just a few clouds in the sky.",
-  "scattered clouds": "the sky is dotted with scattered clouds.",
-  "broken clouds": "you can see patterns of broken clouds.",
-  "overcast clouds": "it's a grey day with overcast clouds covering the sky.",
+  "few clouds":
+    "there are just a few clouds ambling aimlessly, perhaps contemplating their ephemeral existence.",
+  "scattered clouds":
+    "scattered clouds meander across the sky, each seemingly avoiding one another in an exercise of awkward social distancing.",
+  "broken clouds":
+    "the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.",
+  "overcast clouds":
+    "an overcast sky, draped in a monotone grey that could very well match Pantone's 'Quiet Gray' (PANTONE 14-4107 TCX), suggests the sun has taken a personal day, likely without approval.",
 };
 
 const getWeatherMessage = (temperature, description, cityName) => {
