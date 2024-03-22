@@ -12,6 +12,7 @@ const currentCity = cities.Sweden.Stockholm;
 const fetchWeather = async () => {
   const apiKey = process.env.OPEN_WEATHER;
   const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${currentCity.lat}&lon=${currentCity.lon}&units=metric&appid=${apiKey}`;
+  console.log("URL being fetched:", url);
 
   try {
     console.log("Fetching weather data...");
