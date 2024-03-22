@@ -28,7 +28,7 @@ const fetchWeather = async () => {
 
     const temperature = Math.round(data.current.temp);
     const weatherCondition = data.current.weather[0].description;
-    console.log(`Weather condition received: ${weatherCondition}`); // Log the condition
+    // console.log(`Weather condition received: ${weatherCondition}`);
     const weatherMessage = getWeatherMessage(
       temperature,
       weatherCondition,
@@ -45,8 +45,8 @@ const fetchWeather = async () => {
 const updateReadme = async (weatherData) => {
   try {
     const readmePath = path.join(__dirname, "README.md");
-    console.log(__dirname);
-    console.log(`Reading README.md from ${readmePath}`);
+    // console.log(__dirname);
+    // console.log(`Reading README.md from ${readmePath}`);
     let readmeContent = fs.readFileSync(readmePath, "utf8");
 
     console.log(readmeContent);
@@ -62,10 +62,10 @@ const updateReadme = async (weatherData) => {
     const beforeWeather = readmeContent.substring(0, startIndex);
     const afterWeather = readmeContent.substring(endIndex);
     readmeContent = beforeWeather + "\n" + weatherData + "\n" + afterWeather;
-    console.log(readmeContent);
-    console.log("Writing updated weather data to README.md");
+    // console.log(readmeContent);
+    // console.log("Writing updated weather data to README.md");
     fs.writeFileSync(readmePath, readmeContent, "utf8");
-    console.log("Successfully updated README.md");
+    // console.log("Successfully updated README.md");
   } catch (error) {
     console.error("An error occurred in updateReadme:", error);
     throw error;
