@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer specialised in TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 3.92°C, right now you can see patterns of broken clouds.
+Based in Stockholm, where the temperature is 3.92°C, right now the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.
 <!-- WEATHER_END -->
 
 <p align="left">
