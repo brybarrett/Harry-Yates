@@ -6,7 +6,7 @@ require("dotenv").config();
 const getWeatherMessage = require("./weatherDescriptions.js");
 const cities = require("./cities.js");
 
-// SET CITY HERE
+/// SET CITY HERE
 const currentCity = cities.Sweden.Stockholm;
 
 const fetchWeather = async () => {
@@ -24,10 +24,10 @@ const fetchWeather = async () => {
       return "API call failed";
     }
     const data = await response.json();
-    console.log("Data received:", data);
+    // console.log("Data received:", data);
 
-    const temperature = data.current.temp; // Current temperature in Celsius
-    const weatherCondition = data.current.weather[0].description; // Current weather condition
+    const temperature = Math.round(data.current.temp);
+    const weatherCondition = data.current.weather[0].description;
     console.log(`Weather condition received: ${weatherCondition}`); // Log the condition
     const weatherMessage = getWeatherMessage(
       temperature,
@@ -68,7 +68,7 @@ const updateReadme = async (weatherData) => {
     console.log("Successfully updated README.md");
   } catch (error) {
     console.error("An error occurred in updateReadme:", error);
-    throw error; // Rethrow the error to be caught in the calling function
+    throw error;
   }
 };
 
