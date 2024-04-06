@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 1°C, right now it's a picturesque scene with snow falling and blanketing the ground.
+Based in Stockholm, where the temperature is 1°C, right now a bit of light rain at the moment
 <!-- WEATHER_END -->
 
 <p align="left">
