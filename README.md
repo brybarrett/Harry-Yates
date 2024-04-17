@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 1°C, right now scattered clouds meander across the sky, each seemingly avoiding one another in an exercise of awkward social distancing.
+Based in Stockholm, where the temperature is 0°C, right now scattered clouds meander across the sky, each seemingly avoiding one another in an exercise of awkward social distancing.
 <!-- WEATHER_END -->
 
 <p align="left">
