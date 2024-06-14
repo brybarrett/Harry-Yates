@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Unable to fetch weather data.
+Based in Stockholm, where the temperature is 16°C, right now scattered clouds meander across the sky, each seemingly avoiding one another in an exercise of awkward social distancing.
 <!-- WEATHER_END -->
 
 <p align="left">
