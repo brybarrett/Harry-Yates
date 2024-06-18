@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 19°C, right now a thunderstorm is bringing steady rain along with it.
+Based in Stockholm, where the temperature is 17°C, right now a thunderstorm is bringing steady rain along with it.
 <!-- WEATHER_END -->
 
 <p align="left">
