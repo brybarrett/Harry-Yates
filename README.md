@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 23°C, right now the sky is suspiciously clear, as if it's plotting something for later.
+Based in Stockholm, where the temperature is 19°C, right now the sky is suspiciously clear, as if it's plotting something for later.
 <!-- WEATHER_END -->
 
 <p align="left">
