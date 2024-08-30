@@ -3,7 +3,7 @@ Hi, I'm Harry,
 A Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 18°C, right now a light mist is enveloping the surroundings, creating a serene atmosphere.
+Based in Stockholm, where the temperature is 19°C, right now a bit of light rain at the moment
 <!-- WEATHER_END -->
 
 <p align="left">
