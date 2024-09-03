@@ -21,7 +21,7 @@ const weatherDescriptions = {
 
   //THUNDERSTORM
   "thunderstorm with light rain":
-    "a thunderstorm is present, accompanied by light rain.",
+    "A thunderstorm is brewing, with light rain adding a touch of melodrama. Nature's having a bit of a sulk.",
   "thunderstorm with rain":
     "a thunderstorm is bringing steady rain along with it.",
   "thunderstorm with heavy rain":
@@ -31,9 +31,9 @@ const weatherDescriptions = {
   "heavy thunderstorm":
     "a heavy thunderstorm is booming, it's quite a spectacle!",
   "ragged thunderstorm":
-    "a ragged thunderstorm is passing through, with unpredictable patterns.",
+    "An unpredictable, ragged thunderstorm is passing through, keeping everyone on their toes. It's like the weather's gone rogue!",
   "thunderstorm with light drizzle":
-    "a thunderstorm is accompanied by a light, refreshing drizzle.",
+    "A thunderstorm is accompanied by a light drizzle, adding a touch of mystery. The sky can't decide whether to be dramatic or just mildly irritating.",
   "thunderstorm with drizzle":
     "a thunderstorm with a gentle drizzle is setting the mood.",
   "thunderstorm with heavy drizzle":
@@ -56,19 +56,19 @@ const weatherDescriptions = {
     "a shower drizzle is passing through, light and refreshing.",
 
   //RAIN
-  "light rain": "a bit of light rain at the moment",
-  "moderate rain":
-    "moderate rain is coming down, perfect for a lazy day indoors.",
+  "light rain": "A bit of light rain at the moment, like the sky's just testing the waters.",
+  "moderate rain": 
+  "Moderate rain is coming down, perfect for a day of indoor existential pondering.",
   "heavy intensity rain": "we've got some pretty heavy rain",
   "very heavy rain":
-    "very heavy rain is drenching the streets, best to stay inside.",
-  "extreme rain": "extreme rain is lashing out, it's quite a downpour!",
+    "Very heavy rain is drenching the streets, like the sky's having a bit of a meltdown.",
+  "extreme rain": "Extreme rain is lashing out, it's like the sky's throwing a hissy fit!",
   "freezing rain":
     "freezing rain is making the sidewalks slippery, be careful.",
   "light intensity shower rain": "light shower rain is sprinkling the area.",
   "shower rain": "shower rain is washing over the city, refreshing the air.",
   "heavy intensity shower rain":
-    "heavy shower rain is soaking everything, an umbrella is a must.",
+    "Heavy shower rain is soaking everything, an umbrella is a must unless you fancy a free shower.",
   "ragged shower rain":
     "ragged shower rain is passing through, with bursts of rain here and there.",
 
@@ -108,8 +108,8 @@ const weatherDescriptions = {
     "a tornado is forming, a powerful and awe-inspiring sight. Seek shelter immediately!",
 
   //CLEAR
-  "clear sky":
-    "the sky is suspiciously clear, as if it's plotting something for later.",
+  "clear sky": 
+  "A clear sky today, like the weather's decided to take a holiday. Don't worry, chaos will resume shortly.",
 
   //CLOUDS
   "few clouds":
