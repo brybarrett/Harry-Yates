@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 15°C, right now a thick fog is blanketing the area, shrouding everything!
+Based in Stockholm, where the temperature is 14°C, right now a thick fog is blanketing the area, shrouding everything!
 <!-- WEATHER_END -->
 
 <p align="left">
