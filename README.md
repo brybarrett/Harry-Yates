@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 12°C, right now a heavy drizzle is soaking everything in sight.
+Based in Stockholm, where the temperature is 12°C, right now a steady drizzle is dampening the streets.
 <!-- WEATHER_END -->
 
 <p align="left">
