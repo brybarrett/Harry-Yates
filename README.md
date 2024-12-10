@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Unable to fetch weather data.
+Based in Stockholm, where the temperature is -1°C, right now scattered clouds meander across the sky, each seemingly avoiding one another in an exercise of awkward social distancing.
 <!-- WEATHER_END -->
 
 <p align="left">
