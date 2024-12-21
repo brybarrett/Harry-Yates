@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -1°C, right now a heavy snowfall is transforming the landscape into a winter wonderland!
+Based in Stockholm, where the temperature is 0°C, right now a heavy snowfall is transforming the landscape into a winter wonderland!
 <!-- WEATHER_END -->
 
 <p align="left">
