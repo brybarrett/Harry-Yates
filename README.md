@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is -1°C, right now a light mist is enveloping the surroundings, creating a serene atmosphere.
+Based in Stockholm, where the temperature is -1°C, right now it's a picturesque scene with snow falling and blanketing the ground.
 <!-- WEATHER_END -->
 
 <p align="left">
