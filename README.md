@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 2°C, right now it's a picturesque scene with snow falling and blanketing the ground.
+Based in Stockholm, where the temperature is 2°C, right now A clear sky today, like the weather's decided to take a holiday. Don't worry, chaos will resume shortly.
 <!-- WEATHER_END -->
 
 <p align="left">
