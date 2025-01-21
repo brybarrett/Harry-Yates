@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 2°C, right now a light mist is enveloping the surroundings, creating a serene atmosphere.
+Based in Stockholm, where the temperature is 3°C, right now a light mist is enveloping the surroundings, creating a serene atmosphere.
 <!-- WEATHER_END -->
 
 <p align="left">
