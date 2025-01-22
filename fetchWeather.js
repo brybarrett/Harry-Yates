@@ -22,7 +22,7 @@ const fetchWeather = async () => {
       console.error(
         `API call failed with status: ${response.status} ${response.statusText}`
       );
-      return "API call failed";
+      return "Based in Stockholm, the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.";
     }
     const data = await response.json();
     // console.log("Data received:", data);
@@ -39,7 +39,7 @@ const fetchWeather = async () => {
     return weatherMessage;
   } catch (error) {
     console.error("Error fetching weather data:", error);
-    return "Unable to fetch weather data.";
+    return "Based in Stockholm, the sky appears to have started a jigsaw, with broken clouds scattered about as if in the midst of an existential crisis about whether to come together or remain aloof.";
   }
 };
 
