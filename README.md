@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 17°C, right now light shower rain is sprinkling the area.
+Based in Stockholm, where the temperature is 16°C, right now light shower rain is sprinkling the area.
 <!-- WEATHER_END -->
 
 <p align="left">
