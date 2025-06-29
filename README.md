@@ -1,7 +1,7 @@
 British Web Developer focused on TypeScript, React, and Three.js.
 
 <!-- WEATHER_START -->
-Based in Stockholm, where the temperature is 20°C, right now we've got some pretty heavy rain
+Based in Stockholm, where the temperature is 19°C, right now A thunderstorm is brewing, with light rain adding a touch of melodrama. Nature's having a bit of a sulk.
 <!-- WEATHER_END -->
 
 <p align="left">
